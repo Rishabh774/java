@@ -1,0 +1,200 @@
+🚀 GfG 160 DSA Problems — One-Line Summary
+
+1️⃣ Arrays (Days 1–13)
+
+🔢 Find Second Largest Element
+➖ Move All Zeroes to End
+🔄 Reverse an Array
+🔁 Rotate Array by Given Positions
+✨ Find Next Permutation
+👑 Find Majority Element II
+📈 Maximize Profit in Stock Buy & Sell (Multiple Transactions)
+💰 Maximize Profit in Stock Buy & Sell (One Transaction)
+🏞️ Minimize Heights of Towers
+⚡ Find Maximum Subarray Sum (Kadane’s Algorithm)
+💥 Maximum Product Subarray
+🔄 Maximum Circular Subarray Sum
+➕ Find Smallest Positive Missing Number
+
+2️⃣ Strings (Days 14–20)
+🔡 Implement Atoi Function
+➕ Add Two Binary Strings
+🔍 Check if Two Strings are Anagrams
+🚫 Find First Non-Repeating Character
+🔎 Pattern Search using KMP
+🔧 Minimum Characters to Add to Make Palindrome
+🔄 Check if String Rotations of Each Other
+
+3️⃣ Sorting (Days 21–27)
+🔴⚪⚫ Sort Array of 0s, 1s, and 2s
+📚 Find H-Index
+🔢 Count Inversions in Array
+⏱️ Merge Overlapping Intervals
+➕ Insert Interval in Sorted Intervals
+❌ Count Non-Overlapping Intervals
+🔀 Merge Without Extra Space
+
+4️⃣ Searching (Days 28–35)
+🔢 Count Number of Occurrences
+🔄 Find Minimum in Rotated Sorted Array
+🔎 Search in Rotated Sorted Array
+🌄 Find Peak Element
+🎯 Find K-th Element of Two Sorted Arrays
+🐄 Solve Aggressive Cows Problem
+📚 Allocate Minimum Number of Pages
+❓ Find K-th Missing Positive Number
+
+5️⃣ Matrix (Days 36–41)
+🔁 Spirally Traverse a Matrix
+🔄 Rotate Matrix by 90°
+🔍 Search in Row-Column Sorted Matrix
+🔎 Search in Row-Wise Sorted Matrix
+🔢 Search in Fully Sorted Matrix
+➖ Set Matrix Zeroes
+
+6️⃣ Hashing (Days 42–49)
+➕ Find Two Sum
+💑 Count Pairs with Given Sum
+➕ Find All Triplets with Zero Sum
+🔗 Intersection of Two Arrays (With Duplicates)
+🔀 Union of Two Arrays (With Duplicates)
+🌊 Find Longest Consecutive Subsequence
+📋 Group Anagrams Together
+➕ Count Subarrays with Sum K
+❌ Count Subarrays with Given XOR
+
+7️⃣ Two-Pointer Technique (Days 50–61)
+➕ Count Triplets with Given Sum
+💡 Count Pairs with Sum Less Than Target
+🎯 Find Pair with Sum Closest to Target
+🔢 Pair with Given Sum in Sorted Array
+📐 Count Possible Triangles
+🔢 Indices of Subarray with Given Sum
+🚀 Count Distinct Elements in Every Window
+🧱 Longest Substring with Distinct Characters
+💧 Trapping Rain Water Problem
+📦 Container With Most Water
+
+8️⃣ Prefix Sum (Days 62–66)
+⚖️ Find Equilibrium Point
+➕ Longest Subarray with Sum K
+🔄 Largest Subarray of 0s and 1s
+✖️ Product Array Puzzle
+
+9️⃣ Linked List (Days 67–76)
+🔄 Reverse a Linked List
+🔁 Rotate a Linked List
+➕ Merge Two Sorted Linked Lists
+🔄 Reverse Nodes in K-Group
+➕ Add Two Numbers as Linked Lists
+🧬 Clone Linked List with Next & Random Pointers
+🚫 Detect Loop in Linked List
+🧱 Find First Node of Loop
+❌ Remove Loop from Linked List
+🧠 Implement LRU Cache
+
+🔟 Recursion & Backtracking (Days 77–79)
+🔀 Generate All Permutations of a String
+✖️ Implement Power(x, n)
+👑 Solve N-Queen Problem
+🧩 Solve Sudoku Puzzle
+🔎 Word Search in Grid
+
+1️⃣1️⃣ Tree (Days 80–92)
+🌲 Level-Order Traversal of Tree
+⛰️ Find Height of Binary Tree
+📏 Diameter of Binary Tree
+🔄 Mirror a Binary Tree
+🏗️ Build Tree from Inorder & Preorder
+🔁 Inorder Traversal (Recursive & Iterative)
+🧱 Boundary Traversal of Tree
+💰 Maximum Path Sum in Tree
+➕ K-Sum Paths in Binary Tree
+✅ Check if Tree is BST
+🔢 K-th Smallest Element in BST
+🔗 Pair Sum in BST
+🛠️ Fix Two Swapped Nodes in BST
+⚡ Find Lowest Common Ancestor in BST
+🌐 Serialize & Deserialize Binary Tree
+
+1️⃣2️⃣ Heap (Days 93–96)
+🔝 Find K Largest Elements
+🧭 K Closest Points to Origin
+🔀 Merge K Sorted Linked Lists
+🎯 Find Median in a Stream
+
+1️⃣3️⃣ Stack (Days 97–105)
+✅ Parenthesis Checker
+🧱 Longest Valid Parentheses
+⏭️ Next Greater Element
+📊 Stock Span Problem
+🏗️ Histogram Maximum Rectangular Area
+⚡ Maximum of Minimum for Every Window Size
+🧱 Get Minimum from Stack in O(1)
+➕ Evaluate Postfix Expression
+🧩 Decode Encoded String
+
+1️⃣4️⃣ Queue & Deque (Days 106–107)
+🧱 K-Sized Subarray Maximum
+🔢 Longest Bounded-Difference Subarray
+
+1️⃣5️⃣ Dynamic Programming (Days 108–133)
+📈 Longest Increasing Subsequence
+🔗 Longest String Chain
+📚 Longest Common Subsequence
+🔄 Longest Palindromic Subsequence
+💎 Longest Palindrome in String
+💡 Count Palindromic Substrings
+✏️ Edit Distance Problem
+🧱 Ways to Reach N-th Stair
+💸 Min Cost to Climb Stairs
+🎒 0–1 Knapsack Problem
+💰 Coin Change – Count Ways
+➕ Coin Change – Minimum Coins
+🚀 Minimum Jumps to Reach End
+➗ Subset Sum Problem
+⚖️ Partition into Equal Sum Subsets
+💹 Max Profit in Stock (Max K Transactions)
+📈 Max Profit in Stock (Max 2 Transactions)
+🧱 Stickler Thief I & II
+🔓 Decode Ways (Message Count)
+🧱 Matrix Chain Multiplication
+⚡ Boolean Parenthesization Problem
+🔗 Word Break Problem
+
+1️⃣6️⃣ Greedy (Days 134–137)
+🚉 Minimum Platforms Required
+✅ Activity Selection Problem
+⏳ Job Sequencing Problem
+⛽ Gas Station Problem
+🧱 Maximize Partitions in a String
+
+1️⃣7️⃣ Graph (Days 138–152)
+🌳 DFS of Graph
+🌊 BFS of Graph
+🍊 Rotten Oranges Problem
+🚫 Detect Cycle in Undirected Graph
+🏝️ Number of Islands Problem
+🏗️ Topological Sort
+🌉 Detect Cycle in Directed Graph
+🧱 Find Bridge Edges
+⚡ Find Articulation Points
+🏡 MST – Min Cost to Connect All Houses
+📊 Dijkstra’s Shortest Path
+🧱 Flood Fill Algorithm
+🔀 Account Merge Problem
+🔗 Clone Undirected Graph
+🌌 Alien Dictionary Problem
+🚧 Bellman-Ford Algorithm
+⏱️ Floyd Warshall Algorithm
+⚡ Minimum Weight Cycle
+
+1️⃣8️⃣ Trie (Days 153–155)
+🔤 Implement Trie (Insert & Search)
+⚡ Find Maximum XOR of Two Numbers
+
+1️⃣9️⃣ Bit Manipulation (Days 156–160)
+🔢 Find Repeated Element (1 to n-1)
+❓ Find Missing Number in Array
+💡 Find Unique Number I
+🧱 Find Unique Number II (Each Repeated Twice Except One)

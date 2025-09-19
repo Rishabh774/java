@@ -1,0 +1,46 @@
+//Insert At Given Index
+        void InsertAtIndex(int idx , int val){
+           Node t = new Node(val);
+           Node temp = head;
+           if(idx == size()){
+               InsertAtEnd(val);
+           }
+           else if(idx ==0){
+               InsertAtHead(val);
+           }
+           else{
+               for (int i = 0; i <idx-1 ; i++) {
+                   temp = temp.next;
+               }
+               t.next= temp.next;
+               temp.next= t;
+           }
+        }
+        // Insert at tail
+        void InsertAtEnd(int val ){
+          Node temp = new Node(val);
+          if(head == null){
+              head = temp ;
+              tail = temp;
+
+          }
+          else{
+              tail.next = temp;
+              tail = temp;
+          }
+         // size ++;
+        }
+        // insert at head
+        void InsertAtHead(int val ){
+            Node temp =new Node(val);
+            if(head ==null){
+                head= temp;
+                tail = temp;
+
+            }
+            else{
+                temp.next= head;
+                head =temp;
+            }
+            //size++;
+        }

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GfG160: 160 Days of DSA Problems</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(120deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 25px;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .topic-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            border-left: 5px solid #2a5298;
+            transition: transform 0.3s;
+        }
+
+        .topic-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .topic-title {
+            color: #2a5298;
+            font-weight: 600;
+            margin-bottom: 15px;
+            font-size: 18px;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 8px;
+        }
+
+        .problem-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .problem-list li {
+            padding: 5px 0;
+            padding-left: 20px;
+            position: relative;
+            font-size: 14px;
+        }
+
+        .problem-list li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #4caf50;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #f8f9fa;
+            color: #6c757d;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1 class="text-3xl font-bold">GfG160: 160 Days of DSA Problems</h1>
+        <p class="mt-2">Complete Topic-wise Overview</p>
+    </header>
+
+    <div class="content">
+        <div class="grid-container">
+            <!-- Arrays -->
+            <div class="topic-card">
+                <h3 class="topic-title">1. Arrays (Days 1–13)</h3>
+                <ul class="problem-list">
+                    <li>Second Largest</li>
+                    <li>Move All Zeroes to End</li>
+                    <li>Reverse an Array</li>
+                    <li>Rotate Array</li>
+                    <li>Next Permutation</li>
+                    <li>Majority Element II</li>
+                    <li>Stock Buy & Sell (Multiple)</li>
+                    <li>Stock Buy & Sell (One Transaction)</li>
+                    <li>Minimize the Heights I</li>
+                    <li>Kadane's Algorithm</li>
+                    <li>Maximum Product Subarray</li>
+                    <li>Max Circular Subarray Sum</li>
+                    <li>Smallest Positive Missing Number</li>
+                </ul>
+            </div>
+
+            <!-- Strings -->
+            <div class="topic-card">
+                <h3 class="topic-title">2. Strings (Days 14–20)</h3>
+                <ul class="problem-list">
+                    <li>Implement Atoi</li>
+                    <li>Add Binary Strings</li>
+                    <li>Anagram</li>
+                    <li>First Non-Repeating Character</li>
+                    <li>Search Pattern (KMP)</li>
+                    <li>Minimum Characters for Palindrome</li>
+                    <li>String Rotations of Each Other</li>
+                </ul>
+            </div>
+
+            <!-- Sorting -->
+            <div class="topic-card">
+                <h3 class="topic-title">3. Sorting (Days 21–27)</h3>
+                <ul class="problem-list">
+                    <li>Sort 0s, 1s, and 2s</li>
+                    <li>Find H-Index</li>
+                    <li>Count Inversions</li>
+                    <li>Overlapping Intervals</li>
+                    <li>Insert Interval</li>
+                    <li>Non-overlapping Intervals</li>
+                    <li>Merge Without Extra Space</li>
+                </ul>
+            </div>
+
+            <!-- Searching -->
+            <div class="topic-card">
+                <h3 class="topic-title">4. Searching (Days 28–35)</h3>
+                <ul class="problem-list">
+                    <li>Number of Occurrences</li>
+                    <li>Minimum in Sorted & Rotated Array</li>
+                    <li>Search in Rotated Sorted Array</li>
+                    <li>Peak Element</li>
+                    <li>K-th Element of Two Arrays</li>
+                    <li>Aggressive Cows</li>
+                    <li>Allocate Minimum Pages</li>
+                    <li>Kth Missing Positive Number</li>
+                </ul>
+            </div>
+
+            <!-- Matrix -->
+            <div class="topic-card">
+                <h3 class="topic-title">5. Matrix (Days 36–41)</h3>
+                <ul class="problem-list">
+                    <li>Spirally Traverse Matrix</li>
+                    <li>Rotate by 90°</li>
+                    <li>Search in Row-Column Sorted Matrix</li>
+                    <li>Search in Row-Wise Sorted Matrix</li>
+                    <li>Search in Sorted Matrix</li>
+                    <li>Set Matrix Zeroes</li>
+                </ul>
+            </div>
+
+            <!-- Hashing -->
+            <div class="topic-card">
+                <h3 class="topic-title">6. Hashing (Days 42–49)</h3>
+                <ul class="problem-list">
+                    <li>Two Sum</li>
+                    <li>Count Pairs with Given Sum</li>
+                    <li>Find All Triplets with Zero Sum</li>
+                    <li>Intersection of Two Arrays</li>
+                    <li>Union of Arrays with Duplicates</li>
+                    <li>Longest Consecutive Subsequence</li>
+                    <li>Print Anagrams Together</li>
+                    <li>Subarrays with Sum K</li>
+                    <li>Count Subarrays with Given XOR</li>
+                </ul>
+            </div>
+
+            <!-- Two Pointer -->
+            <div class="topic-card">
+                <h3 class="topic-title">7. Two-Pointer (Days 50–61)</h3>
+                <ul class="problem-list">
+                    <li>Count Triplets with Given Sum</li>
+                    <li>Count Pairs with Sum Less Than Target</li>
+                    <li>Sum Pair Closest to Target</li>
+                    <li>Pair with Given Sum (Sorted Array)</li>
+                    <li>Count Possible Triangles</li>
+                    <li>Indices of Subarray Sum</li>
+                    <li>Count Distinct Elements in Every Window</li>
+                    <li>Longest Substring with Distinct Characters</li>
+                    <li>Trapping Rain Water</li>
+                    <li>Container With Most Water</li>
+                </ul>
+            </div>
+
+            <!-- Linked List -->
+            <div class="topic-card">
+                <h3 class="topic-title">9. Linked List (Days 67–76)</h3>
+                <ul class="problem-list">
+                    <li>Reverse a Linked List</li>
+                    <li>Rotate a Linked List</li>
+                    <li>Merge Two Sorted Linked Lists</li>
+                    <li>Reverse Nodes in K-Group</li>
+                    <li>Add Number Linked Lists</li>
+                    <li>Clone List with Next and Random</li>
+                    <li>Detect Loop in Linked List</li>
+                    <li>Find the First Node of Loop</li>
+                    <li>Remove Loop</li>
+                    <li>LRU Cache</li>
+                </ul>
+            </div>
+
+            <!-- Tree -->
+            <div class="topic-card">
+                <h3 class="topic-title">11. Tree (Days 80–92)</h3>
+                <ul class="problem-list">
+                    <li>Level-Order Traversal</li>
+                    <li>Height of Binary Tree</li>
+                    <li>Diameter of a Binary Tree</li>
+                    <li>Mirror Tree</li>
+                    <li>Construct Tree from Inorder & Preorder</li>
+                    <li>Inorder Traversal</li>
+                    <li>Boundary Traversal</li>
+                    <li>Maximum Path Sum from Any Node</li>
+                    <li>K-Sum Paths</li>
+                    <li>Check for BST</li>
+                    <li>kth Smallest in BST</li>
+                    <li>Pair Sum in BST</li>
+                    <li>Fix Two Swapped Nodes of a BST</li>
+                    <li>Lowest Common Ancestor in BST</li>
+                    <li>Serialize & Deserialize a Binary Tree</li>
+                </ul>
+            </div>
+
+            <!-- Dynamic Programming -->
+            <div class="topic-card">
+                <h3 class="topic-title">15. Dynamic Programming (Days 108–133)</h3>
+                <ul class="problem-list">
+                    <li>Longest Increasing Subsequence</li>
+                    <li>Longest String Chain</li>
+                    <li>Longest Common Subsequence</li>
+                    <li>Longest Palindromic Subsequence</li>
+                    <li>Longest Palindrome in a String</li>
+                    <li>Palindromic Substrings</li>
+                    <li>Edit Distance</li>
+                    <li>Ways to Reach the nth Stair</li>
+                    <li>Min Cost Climbing Stairs</li>
+                    <li>0–1 Knapsack</li>
+                    <li>Coin Change (Count Ways)</li>
+                    <li>Coin Change (Min Coins)</li>
+                    <li>Minimum Jumps</li>
+                    <li>Subset Sum Problem</li>
+                    <li>Partition Equal Subset Sum</li>
+                    <li>Stock Buy & Sell – Max K Transactions</li>
+                </ul>
+            </div>
+
+            <!-- Graph -->
+            <div class="topic-card">
+                <h3 class="topic-title">17. Graph (Days 138–152)</h3>
+                <ul class="problem-list">
+                    <li>DFS of Graph</li>
+                    <li>BFS of Graph</li>
+                    <li>Rotten Oranges</li>
+                    <li>Undirected Graph Cycle Detection</li>
+                    <li>Number of Islands</li>
+                    <li>Topological Sort</li>
+                    <li>Directed Graph Cycle Detection</li>
+                    <li>Bridge Edge in Graph</li>
+                    <li>Articulation Point</li>
+                    <li>Minimum Cost to Connect All Houses</li>
+                    <li>Dijkstra's Algorithm</li>
+                    <li>Flood Fill Algorithm</li>
+                    <li>Account Merge</li>
+                    <li>Clone an Undirected Graph</li>
+                    <li>Alien Dictionary</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>GfG 160 Days of Problem Solving Challenge — Perfect for DSA Preparation</p>
+    </footer>
+</div>
+</body>
+</html>

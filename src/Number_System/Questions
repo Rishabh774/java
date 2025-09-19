@@ -1,0 +1,47 @@
+
+Basic Level (1–15)
+Check if a number is even or odd.
+Find the sum of digits of a number.
+Count the number of digits in an integer.
+Reverse a given number.
+Check if a number is a palindrome.
+Check if a number is prime.
+Print all prime numbers in a given range.
+Find the factorial of a number.
+Calculate power (a^b) using loop.
+Find the GCD (HCF) of two numbers.
+Find the LCM of two numbers.
+Check if a number is a perfect number.
+Check if a number is an Armstrong number.
+Convert a decimal number to binary.
+Convert a binary number to decimal.
+
+
+Intermediate Level (16–30)
+16. Convert decimal to octal and hexadecimal.
+17. Find all divisors of a number.
+18. Check whether a number is a Strong number.
+19. Check whether a number is a Happy number.
+20. Find the Nth prime number.
+21. Find the prime factors of a number.
+22. Calculate the product of digits of a number.
+23. Check if a number is automorphic (n² ends with n).
+24. Print all Armstrong numbers in a given range.
+25. Find digital root of a number.
+26. Convert a number from any base to decimal.
+27. Convert a number from decimal to any base (2 to 16).
+28. Count the number of set bits (1s) in binary representation of a number.
+29. Find the sum of first N natural numbers.
+30. Find the sum of first N odd/even numbers.
+
+Advanced Level (31–40)
+31. Find the Nth term of a geometric progression.
+32. Find whether a number is a Harshad number (divisible by sum of digits).
+33. Print numbers that are both prime and palindrome in a range.
+34. Check if a number is a Kaprekar number.
+35. Count the number of trailing zeros in a factorial.
+36. Find power using fast exponentiation.
+37. Check if a number is a circular prime.
+38. Generate all Pythagorean triplets with a given sum.
+39. Check whether two numbers are co-prime.
+40. Check if a number is a Neon number (n² sum of digits = n).

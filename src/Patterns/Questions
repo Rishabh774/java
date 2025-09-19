@@ -1,0 +1,207 @@
+
+🎯 PATTERN PRINTING PRACTICE – 35 QUESTIONS
+
+⭐ STAR PATTERNS
+1. Right-angled triangle:
+*
+* *
+* * *
+* * * *
+
+2. Inverted right-angled triangle:
+* * * *
+* * *
+* *
+*
+
+3. Full pyramid:
+   *
+  * *
+ * * *
+* * * *
+
+4. Inverted full pyramid:
+* * * *
+ * * *
+  * *
+   *
+
+5. Right-aligned triangle:
+      *
+    * *
+  * * *
+* * * *
+
+6. Diamond:
+   *
+  * *
+ * * *
+  * *
+   *
+
+7. Hollow square (4x4):
+* * * *
+*     *
+*     *
+* * * *
+
+8. Hollow pyramid:
+   *
+  * *
+ *   *
+* * * *
+
+9. Square with diagonals:
+*     *
+ *   *
+  * *
+   *
+
+10. Zig-zag star:
+*   *   *
+ * * * *
+  *   *
+
+🔢 NUMBER PATTERNS
+11. Number triangle:
+1
+1 2
+1 2 3
+
+12. Reversed number triangle:
+3 2 1
+2 1
+1
+
+13. Same numbers per row:
+1
+2 2
+3 3 3
+
+14. Floyd's triangle:
+1
+2 3
+4 5 6
+
+15. Continuous numbers:
+1
+2 3
+4 5 6
+
+16. Row-wise decreasing:
+3 2 1
+2 1
+1
+
+17. Pascal’s Triangle:
+1
+1 1
+1 2 1
+1 3 3 1
+
+18. Number pyramid:
+    1
+   2 3
+  4 5 6
+
+19. Mirror number triangle:
+    1
+  1 2
+1 2 3
+
+20. Hourglass pattern:
+1 2 3
+ 2 3
+  3
+ 2 3
+1 2 3
+
+🔠 ALPHABET PATTERNS
+21. Alphabet triangle:
+A
+B B
+C C C
+
+22. Continuous alphabets:
+A
+B C
+D E F
+
+23. Row-wise increasing:
+A
+A B
+A B C
+
+24. Reverse alphabet triangle:
+C C C
+B B
+A
+
+25. Inverted continuous:
+A B C
+D E
+F
+
+26. Centered alphabet pyramid:
+    A
+   A B
+  A B C
+
+27. Alphabet diamond:
+   A
+  B B
+ C   C
+  B B
+   A
+
+28. Alphabet square:
+A B C
+A B C
+A B C
+
+29. V-shaped alphabet:
+A     A
+ B   B
+  C C
+   D
+
+30. Z-shaped alphabet:
+A B C D
+     C
+   B
+A
+
+🔄 MIXED / LOGICAL PATTERNS
+31. Checkerboard:
+1 0 1 0
+0 1 0 1
+1 0 1 0
+0 1 0 1
+
+32. Binary triangle:
+1
+0 1
+1 0 1
+
+33. Spiral matrix (3x3):
+1 2 3
+8 9 4
+7 6 5
+
+34. Hollow diamond (numbers):
+   1
+  1 2
+ 1   3
+1 2 3 4
+ 1   3
+  1 2
+   1
+
+35. X-shape:
+*     *
+ *   *
+  * *
+ *   *
+*     *
+
+

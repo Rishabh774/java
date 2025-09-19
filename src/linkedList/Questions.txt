@@ -1,0 +1,56 @@
+1. Can we delete a node given only the node itself (not the head)?
+2. Find the Nth node from the end of a linked list (only head is given). done
+3. Find the Nth node from the end in one traversal (using two pointers). done
+4. Remove the Nth node from the end in one traversal. done
+5. Find the intersection point of two linked lists.
+6. Find the middle element of a linked list (odd & even cases). done
+7. Delete the middle element of a linked list (odd/even separately).
+8. Detect a cycle in a linked list.
+9. Find the node where the cycle begins in a linked list.
+10. Find the number of nodes in the cycle.
+11. Which of the following algorithms is not feasible to implement in a linked list?
+    Linear Search
+    Merge Sort
+    Insertion Sort
+    Binary Search
+  //  Binary search is correct option
+12. Merge two sorted linked lists (with extra space).
+13. Merge two sorted linked lists (without extra space).
+14. Split a linked list into two lists such that one contains odd values and the other contains even values. not done
+15. Remove duplicates from a sorted linked list. done
+16. Reverse a linked list (iterative and recursive). iterative done
+17. Check whether a linked list is a palindrome or not. done
+18. Find the maximum twin sum of a linked list of even length. not done
+19. Rearrange a linked list into odd and even nodes. done
+20. Copy a linked list with random pointer (deep copy). samjh hi nhi aaya
+21. Insert a node at the beginning of a linked list.
+22. Insert a node at the end of a linked list.
+23. Insert a node at a given position in a linked list.
+24. Delete the first node of a linked list.
+25. Delete the last node of a linked list.
+26. Delete a node at a given position.
+27. Count the number of nodes in a linked list (iterative and recursive).
+28. Search an element in a linked list (iterative and recursive).
+29. Find the length of a cycle in a linked list.
+30. Remove a cycle from a linked list (if present).
+31. Check if two linked lists are identical.
+32. Find the intersection (common node) of two linked lists.
+33. Find the union of two linked lists.
+34. Find the intersection of two sorted linked lists.
+35. Sort a linked list using Merge Sort.
+36. Sort a linked list using Insertion Sort.
+37. Pairwise swap nodes of a linked list.
+38. Swap two nodes without swapping data.
+39. Rotate a linked list by k places.
+40. Rotate a linked list clockwise and anticlockwise.
+41. Flatten a multilevel linked list.
+42. Add two numbers represented by linked lists.
+43. Multiply two numbers represented by linked lists.
+44. Check if a linked list is circular.
+45. Find the modular node (k-th node from end modulo length).
+46. Find the fractional node (n/k-th node).
+47. Find the square root node (sqrt(n)-th node).
+48. Delete nodes which have a greater value on the right side.
+49. Remove all occurrences of duplicates from a sorted linked list.
+50. Reverse nodes in k-groups.
+

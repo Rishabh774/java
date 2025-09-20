@@ -34,3 +34,5 @@ public class MoveZerosEnd {
       printarr(arr);
     }
 }
+
+//In this method we replace zeros to end and not change its original relative order

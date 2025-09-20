@@ -32,9 +32,7 @@ public class ReverseArray {
         }
         System.out.print("Original Array: ");
         printarr(arr);
-
         reverse(arr);
-
         System.out.print("Reversed Array: ");
         printarr(arr);
 

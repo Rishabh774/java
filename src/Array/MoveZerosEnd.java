@@ -25,7 +25,6 @@ public class MoveZerosEnd {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of array :");
         int n = sc.nextInt();
-
         int arr[]= new int[n];
         System.out.print("Enter "+n+" elements of array");
         for (int i = 0; i < arr.length; i++) {
